@@ -1,0 +1,81 @@
+#nav{
+	background-color: #c0392b;
+	width: 100%;
+	height: 50px;
+	//border: 1px solid rgba(0, 255, 0, 1);
+	position: fixed;
+}
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+	float: right;
+	font-size: 20px;
+}
+#nav a{
+   display: block;
+   padding: 12px;
+   color: white;
+}
+#page1{
+	background-image: url(http://cdn0.dailydot.com/cache/38/20/3820c943ccfe4570e0143fa0c02f63f4.jpg);
+	height: 620px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wiki{
+	//border: 1px solid rgba(0, 255, 0, 1);
+	font-size: 20px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 70px;
+	font-weight: bold;
+}
+#page2{
+	height: 660px;
+	border: 1px solid rgba(0, 255, 0, 5);
+	padding-left: 15px;
+	margin: 0px;
+}
+#page2 img{
+	margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 320px;
+    height: 320px;
+}
+
+#facebook{
+	background-image: url(https://www.tobania.be/files/uploads/imagecache/nexSideBarAdvalvas/images/advalvas/advalvas-facebook-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 200px;
+}
+#twitter{
+	background-image: url(http://marketingland.com/wp-content/ml-loads/2014/07/twitter-logo-small-fade-1920.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:200px;
+}
+#linkedin{
+	background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoN9ejMSaQ1d4oVbIdp_7cBaNxPg7NTdknOWpHgqUc-LI02sXW9w);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+}
+#page3 p{
+	text-align: center;
+	padding-top: 70px;
+}
+#page3 a{
+	font-weight: bold;
+	font-size: 30px;
+	//color: #c0392b;
+	color: yellow;
+	font-style: italic;
+}
